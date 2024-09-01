@@ -151,11 +151,15 @@ margin-top: 5rem;
 
 @media (max-width:450px) {
     .home{
+        margin: 2rem;
         font-size: 1rem;
         margin-top: 100px;
     }
     .loading{
         font-size: 1rem;
         margin-top: 100px;
+    }
+    .filters{
+        gap: 1rem;
     }
 }

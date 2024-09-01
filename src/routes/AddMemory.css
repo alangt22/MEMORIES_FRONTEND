@@ -21,6 +21,7 @@
 
 @media (max-width:450px) {
     .add-memory-page{
+        margin: 1rem;
         margin-top: 5rem;
     }
 }

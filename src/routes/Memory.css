@@ -37,6 +37,8 @@
 
 @media (max-width:450px) {
     .memory-page{
+        margin: 1rem;
+   
         margin-top: 80px;
     }
     .memory-page img{
