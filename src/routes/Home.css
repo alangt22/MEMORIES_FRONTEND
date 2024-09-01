@@ -1,0 +1,161 @@
+/* Home.css */
+
+.home h2 {
+    color: #1146a6;
+    padding: 2rem 0 1rem;
+    text-align: center;
+}
+.filter{
+    margin: 0 auto;
+    border: 1px solid #000;
+    width: 300px;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 2px 1px 19px 7px rgba(0, 0, 0,0.82);
+-webkit-box-shadow: 2px 1px 19px 7px rgba(0, 0, 0,0.82);
+-moz-box-shadow: 2px 1px 19px 7px rgba(0, 0, 0,0.82);
+margin-top: 5rem;
+}
+
+
+.filters{
+    display: flex;
+    justify-content: center;
+}
+.filters input[type="text"]{
+    width: 200px;
+}
+.memories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.memory {
+    flex: 1 1 300px;
+    max-width: 300px;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    border: 2px solid #888;
+    border-radius: 10px;
+    box-shadow: 12px 9px 27px -5px rgba(0, 0, 0,0.82);
+-webkit-box-shadow: 12px 9px 27px -5px rgba(0, 0, 0,0.82);
+-moz-box-shadow: 12px 9px 27px -5px rgba(0, 0, 0,0.82);
+}
+
+.memory img {
+    min-height: 200px;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.memory-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    
+}
+
+.memory-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.btn-favorite {
+    width: 0;
+    font-size: 2rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: color 0s; /* Remove transição para mudança instantânea */
+}
+
+.btn-favorite.filled {
+    color: #e74c3c; /* Cor do ícone quando favoritado */
+}
+
+.btn-favorite.unfilled {
+    color: #888; /* Cor do ícone quando não favoritado */
+}
+
+.btn-favorite i {
+    transition: color 0.1s;
+}
+
+.btn-div {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+
+
+/* Outros estilos para os botões e layout */
+.btn, .btn-secondary {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.loading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+/* Novo estilo para a mensagem de carregamento */
+.load {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.loading::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top-color: #3498db;
+    animation: spin 1s linear infinite;
+    margin-right: 10px;
+}
+
+/* Animação de rotação */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media (max-width:450px) {
+    .home{
+        font-size: 1rem;
+        margin-top: 100px;
+    }
+    .loading{
+        font-size: 1rem;
+        margin-top: 100px;
+    }
+}

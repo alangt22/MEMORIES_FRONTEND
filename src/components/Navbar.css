@@ -1,0 +1,60 @@
+.navbar {
+    background-color: #1146a6;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h2{
+    font-size: 2rem;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.navbar ul {
+    display: flex;
+    gap: 0.8rem;
+    list-style-type: none; /* Remove os pontos das listas */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 0.5rem 1rem; /* Adiciona algum preenchimento para um clique mais fácil */
+    display: inline-block; /* Garante que o link seja tratado como um bloco para a transformação */
+    transition: transform 0.3s ease, color 0.3s ease; /* Transição suave para a transformação e cor */
+}
+
+/* Efeito de escala e animação ao passar o mouse sobre o link */
+.navbar a:hover {
+    transform: scale(1.1); /* Escala o link em 10% */
+    color: #d0e6f4; /* Cor do texto quando em hover (opcional) */
+}
+
+.navbar a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+@media (max-width:480px){
+    .navbar{
+        padding: 2rem;
+        height: 85px;
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        
+    }
+    .navbar h2{
+       font-size: 1.8rem;
+    }
+    .navbar ul li:first-child a{
+        margin-top: 18px;
+    }
+}
