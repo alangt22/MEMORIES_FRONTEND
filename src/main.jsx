@@ -6,7 +6,7 @@ import './index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 //pages
 import Home from './routes/Home.jsx'
-import AddMemory from './routes/addMemory.jsx'
+import AddMemory from './routes/addMemory.jsx';
 import Memory from './routes/Memory.jsx'
 
 
