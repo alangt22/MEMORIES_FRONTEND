@@ -7,7 +7,7 @@ Matheus Battisti - Hora de codar
 
 
 ## 🔥 Introdução
-**Mwmories**é uma aplicação projetada para ajudar no gerenciamento e criação de memórias, oferecendo funcionalidades completas para adicionar, editar e visualizar eventos com detalhes.
+**Memories** é uma aplicação projetada para ajudar no gerenciamento e criação de memórias, oferecendo funcionalidades completas para adicionar, editar e visualizar eventos com detalhes.
 
 ## Tecnologias Utilizadas
 - **Front-end:** React.js
@@ -26,6 +26,9 @@ O **Memories** oferece um conjunto de recursos para ajudar na criação e gerenc
 
 - **Visualização de Memorias:**
   - Visualize a lista de memorias criadas, com a capacidade de acessar detalhese adicionar comentarios.
+  - **Busca e Filtragem**:
+     - **Busca por Nome**: Encontre memórias rapidamente através da busca por nome.
+     - **Filtrar Favoritos**: Visualize apenas as memórias marcadas como favoritas.
 
 ## Como Usar o Projeto
 
