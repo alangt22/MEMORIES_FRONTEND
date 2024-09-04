@@ -22,7 +22,7 @@ O **Memories** oferece um conjunto de recursos para ajudar na criação e gerenc
   - Permite criar novos eventos com informações detalhadas, incluindo nome, imagem e descrição.
   
 - **Gerenciamento de Memorias:**
-  - **Editar:** Modifique os detalhes dos eventos existentes, como nome, imagem, descrição e adicionar comentario.
+  - **Comentar:** Adicionar comentario.
 
 - **Visualização de Memorias:**
   - Visualize a lista de memorias criadas, com a capacidade de acessar detalhese adicionar comentarios.
